@@ -99,3 +99,19 @@
     * &lt;%--这是注释，在客户端的console无法查看得到--&gt;
 
 ## JSP的执行过程
+   
+   
+```flow 
+st=>start: 开始|past:>http://www.baidu.com
+e=>end:
+c1=>condition: 条件1:>http://www.baidu.com[_parent]
+c2=>condition: 条件2
+c3=>condition: 添加3
+io=inputoutput:输出
+(bo)->e
+
+st->c1(yes,right)->c2(yes,right)->io->e
+
+
+
+
