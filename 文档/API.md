@@ -30,7 +30,7 @@
 当然此处的&lt;hr&gt;也是可以用的 同样 & l t ;代表的是小于号;& g t ;代表的就是大于号
 
 ***
-![思君不可追](./image/beauty.jpg "有美人兮")
+![思君不可追](./image/properties1.jpg "有美人兮")
 ****
 图片alt就是显示在图片下面的文字，相当于堆图片内容的解释
 
@@ -38,7 +38,7 @@
 
 title可以加也可以不加
 ***************
-![放置在底端的文字](./image/beautiful.jpg "等待是一生最初的苍老")
+![放置在底端的文字](./image/properties1.jpg "等待是一生最初的苍老")
 *********
 
 [简书](http://jianshu.com "简书的超链接")
@@ -147,16 +147,6 @@ title可以加上也可以不加上
 *******************
 流程图
 
-```flow 
-st=>start: 开始|past:>http://www.baidu.com
-e=>end:
-c1=>condition: 条件1:>http://www.baidu.com[_parent]
-c2=>condition: 条件2
-c3=>condition: 添加3
-io=inputoutput:输出
-(bo)->e
-
-st->c1(yes,right)->c2(yes,right)->io->e
 
 
 
